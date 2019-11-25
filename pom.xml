@@ -20,7 +20,7 @@
         </dependency>
         <dependency>
             <groupId>com.iohgame</groupId>
-            <artifactId>iohgame-java-request</artifactId>
+            <artifactId>iohgame-java-framework</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>
