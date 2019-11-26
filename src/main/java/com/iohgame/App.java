@@ -1,12 +1,18 @@
 package com.iohgame;
 
-/**
- * Hello world!
- */
+import com.iohgame.service.jira.export.NbaRakutenWeeklyReportExportAction;
+import com.iohgame.service.jira.export.property.NbaRakutenConnect;
+
 public class App
 {
     public static void main(String[] args)
     {
-        System.out.println("Hello World!");
+        App app = new App();
+        app.execute();
+    }
+    
+    public void execute()
+    {
+        new NbaRakutenWeeklyReportExportAction(new NbaRakutenConnect()).doMainExecute();
     }
 }

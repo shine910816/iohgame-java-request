@@ -1,4 +1,4 @@
-package com.iohgame;
+package com.iohgame.service.jira.export.property;
 
 import java.util.List;
 
@@ -7,26 +7,20 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 
 import com.atlassian.jira.rest.client.api.domain.Issue;
+import com.iohgame.framework.utility.ExcelBook;
+import com.iohgame.service.jira.export.parameters.JiraIssueColumns;
 
-import cn.com.transcosmos.framework.utility.Document;
-import cn.com.transcosmos.framework.utility.Document.ExcleBook;
-import cn.com.transcosmos.framework.utility.MainClass;
-import cn.com.transcosmos.framework.utility.connect.jira.parameter.JiraIssueColumns;
-
-public class JiraTicketsExport extends MainClass
+public class JiraTicketsExport extends ExcelBook
 {
-    private ExcleBook m_book;
-
-    public JiraTicketsExport()
+    public static JiraTicketsExport getIntance()
     {
-        LOG.info("Start export jira issue tickets");
-        m_book = Document.createExcleBook();
+        return new JiraTicketsExport();
     }
 
     public JiraTicketsExport createEmptySheet(String sheetName)
     {
         LOG.info("Create empty sheet for " + sheetName);
-        m_book.getBook().createSheet(sheetName);
+        createSheet(sheetName);
         return this;
     }
 
@@ -36,7 +30,7 @@ public class JiraTicketsExport extends MainClass
         if (columnsCount > 0)
         {
             LOG.info("Create sheet for " + sheetName);
-            Sheet sheet = m_book.getBook().createSheet(sheetName);
+            Sheet sheet = createSheet(sheetName);
 
             LOG.info("Create header row");
             Row headerRow = sheet.createRow(0);
@@ -44,7 +38,7 @@ public class JiraTicketsExport extends MainClass
             for (JiraIssueColumns column : columns)
             {
                 Cell headerCell = headerRow.createCell(cellIndex++);
-                headerCell.setCellStyle(m_book.getStyle());
+                headerCell.setCellStyle(getStyle());
                 headerCell.setCellValue(column.val());
             }
 
@@ -64,6 +58,12 @@ public class JiraTicketsExport extends MainClass
                         case KEY:
                             cellValue = issue.getKey();
                             break;
+                        case SUMMARY:
+                            cellValue = issue.getSummary();
+                            break;
+                        case TYPE:
+                            cellValue = issue.getIssueType().getName();
+                            break;
                         case STATUS:
                             cellValue = issue.getStatus().getName();
                             break;
@@ -80,10 +80,13 @@ public class JiraTicketsExport extends MainClass
                                 cellValue = issue.getResolution().getName();
                             }
                             break;
+                        case DESCRIPTION:
+                            cellValue = issue.getDescription();
+                            break;
                         default:
                             break;
                     }
-                    contentCell.setCellStyle(m_book.getStyle());
+                    contentCell.setCellStyle(getStyle());
                     contentCell.setCellValue(cellValue);
                 }
             }
@@ -99,16 +102,5 @@ public class JiraTicketsExport extends MainClass
             LOG.error("No request columns");
         }
         return this;
-    }
-
-    public void saveExcelFile(String exportFile)
-    {
-        LOG.info("Write file " + exportFile);
-        Document.saveExcelFile(exportFile + ".xls", m_book.getBook());
-    }
-
-    public static JiraTicketsExport getIntance()
-    {
-        return new JiraTicketsExport();
     }
 }
