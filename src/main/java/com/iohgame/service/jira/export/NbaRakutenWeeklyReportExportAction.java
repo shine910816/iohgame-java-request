@@ -15,6 +15,12 @@ public class NbaRakutenWeeklyReportExportAction extends BatchAction<NbaRakutenCo
     }
 
     @Override
+    public boolean doMainValidate()
+    {
+        return true;
+    }
+
+    @Override
     public boolean doMainExecute()
     {
         JiraTicketsExport.getIntance() //
@@ -25,5 +31,4 @@ public class NbaRakutenWeeklyReportExportAction extends BatchAction<NbaRakutenCo
                 .saveExcelFile("WeeklyReport(" + Utility.getCurrentDate(ConstDatetime.DATE_NONE) + ")");
         return true;
     }
-
 }

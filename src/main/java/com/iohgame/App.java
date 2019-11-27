@@ -1,18 +1,12 @@
 package com.iohgame;
 
-import com.iohgame.service.jira.export.NbaRakutenWeeklyReportExportAction;
-import com.iohgame.service.jira.export.property.NbaRakutenConnect;
+import com.iohgame.service.property.BatchFactory;
+import com.iohgame.service.property.BatchFactory.BatchOption;
 
 public class App
 {
     public static void main(String[] args)
     {
-        App app = new App();
-        app.execute();
-    }
-    
-    public void execute()
-    {
-        new NbaRakutenWeeklyReportExportAction(new NbaRakutenConnect()).doMainExecute();
+        BatchFactory.getInstance().execute(BatchOption.NBA_RAKUTEN_WEEKLY_REPORT);
     }
 }
