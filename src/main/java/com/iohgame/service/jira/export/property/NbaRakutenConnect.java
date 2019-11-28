@@ -3,13 +3,12 @@ package com.iohgame.service.jira.export.property;
 import java.util.List;
 
 import com.atlassian.jira.rest.client.api.domain.Issue;
+import com.iohgame.framework.connect.base.ConnectBase;
 import com.iohgame.framework.connect.jira.property.JiraConnect;
-import com.iohgame.framework.utility.MainClass;
-import com.iohgame.framework.utility.parameters.property.Connectable;
 
-public class NbaRakutenConnect extends MainClass implements Connectable
+public class NbaRakutenConnect extends ConnectBase
 {
-    JiraConnect<NbaRakuten> m_connect;
+    private JiraConnect<NbaRakuten> m_connect;
 
     public NbaRakutenConnect()
     {

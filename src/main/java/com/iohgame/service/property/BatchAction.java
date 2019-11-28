@@ -1,9 +1,9 @@
 package com.iohgame.service.property;
 
+import com.iohgame.framework.connect.base.ConnectBase;
 import com.iohgame.framework.utility.ServiceAction;
-import com.iohgame.framework.utility.parameters.property.Connectable;
 
-public abstract class BatchAction<T extends Connectable> extends ServiceAction
+public abstract class BatchAction<T extends ConnectBase> extends ServiceAction
 {
     private T m_connect;
 
