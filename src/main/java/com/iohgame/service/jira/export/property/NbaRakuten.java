@@ -1,16 +1,32 @@
 package com.iohgame.service.jira.export.property;
 
+import java.util.Properties;
+
 import com.iohgame.framework.connect.jira.parameters.JiraAccount;
 import com.iohgame.framework.utility.MainClass;
+import com.iohgame.framework.utility.Utility;
+import com.iohgame.service.property.ConfigLoader;
 
 public class NbaRakuten extends MainClass implements JiraAccount
 {
-    private final String m_requestUri = "https://jira.rakuten-it.com/jira";
-    private final String m_accountName = "wang.lichun@trans-cosmos.com.cn";
-    private final String m_password = "!QAZxsw2";
-    private final String m_proxyHost = "";
-    private final String m_proxyport = "";
-    private final Integer m_authMax = 100;
+    private final String m_requestUri;
+    private final String m_accountName;
+    private final String m_password;
+    private final String m_proxyHost;
+    private final String m_proxyPort;
+    private final Integer m_authMax;
+
+    public NbaRakuten()
+    {
+        Properties prop = ConfigLoader.getInstance().load("rakutennba");
+        System.out.println(prop);
+        m_requestUri = prop.getProperty("request");
+        m_accountName = prop.getProperty("account");
+        m_password = prop.getProperty("password");
+        m_proxyHost = prop.getProperty("proxyHost");
+        m_proxyPort = prop.getProperty("proxyPort");
+        m_authMax = Utility.toInteger(prop.getProperty("auth"));
+    }
 
     @Override
     public String requestUrl()
@@ -39,7 +55,7 @@ public class NbaRakuten extends MainClass implements JiraAccount
     @Override
     public String proxyPort()
     {
-        return m_proxyport;
+        return m_proxyPort;
     }
 
     @Override
