@@ -19,7 +19,6 @@ public class NbaRakuten extends MainClass implements JiraAccount
     public NbaRakuten()
     {
         Properties prop = ConfigLoader.getInstance().load("rakutennba");
-        System.out.println(prop);
         m_requestUri = prop.getProperty("request");
         m_accountName = prop.getProperty("account");
         m_password = prop.getProperty("password");
