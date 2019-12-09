@@ -1,4 +1,4 @@
-package com.iohgame.service.jira.export.property;
+package com.iohgame.service.property.jira.export.property;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 
 import com.atlassian.jira.rest.client.api.domain.Issue;
 import com.iohgame.framework.utility.ExcelBook;
-import com.iohgame.service.jira.export.parameters.JiraIssueColumns;
+import com.iohgame.service.property.jira.export.parameters.JiraIssueColumns;
 
 public class JiraTicketsExport extends ExcelBook
 {

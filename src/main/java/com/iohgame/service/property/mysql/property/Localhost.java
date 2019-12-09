@@ -1,4 +1,4 @@
-package com.iohgame.service.mysql.property;
+package com.iohgame.service.property.mysql.property;
 
 import com.iohgame.framework.connect.mysql.parameters.MysqlAccount;
 import com.iohgame.framework.utility.MainClass;

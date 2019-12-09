@@ -1,16 +1,15 @@
-package com.iohgame.service.property;
+package com.iohgame.service.jiraexport;
 
 import com.iohgame.framework.utility.ServiceFactory;
 import com.iohgame.framework.utility.parameters.property.Action;
 import com.iohgame.framework.utility.parameters.property.OptionElement;
-import com.iohgame.service.jira.export.NbaRakutenWeeklyReportExportAction;
-import com.iohgame.service.jira.export.property.NbaRakutenConnect;
+import com.iohgame.service.property.jira.export.property.NbaRakutenConnect;
 
-public class BatchFactory extends ServiceFactory
+public class NbaRakutenBatchFactory extends ServiceFactory
 {
-    public static BatchFactory getInstance()
+    public static NbaRakutenBatchFactory getInstance()
     {
-        return new BatchFactory();
+        return new NbaRakutenBatchFactory();
     }
 
     @Override

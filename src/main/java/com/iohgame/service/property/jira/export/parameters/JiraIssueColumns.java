@@ -1,4 +1,4 @@
-package com.iohgame.service.jira.export.parameters;
+package com.iohgame.service.property.jira.export.parameters;
 
 import com.iohgame.framework.utility.parameters.property.OptionElement;
 

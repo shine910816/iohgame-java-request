@@ -1,4 +1,4 @@
-package com.iohgame.service.jira.export.property;
+package com.iohgame.service.property.jira.export.property;
 
 import java.util.Properties;
 

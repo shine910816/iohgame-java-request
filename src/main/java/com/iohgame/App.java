@@ -1,12 +1,12 @@
 package com.iohgame;
 
-import com.iohgame.service.property.BatchFactory;
-import com.iohgame.service.property.BatchFactory.BatchOption;
+import com.iohgame.service.jiraexport.NbaRakutenBatchFactory;
+import com.iohgame.service.jiraexport.NbaRakutenBatchFactory.BatchOption;
 
 public class App
 {
     public static void main(String[] args)
     {
-        BatchFactory.getInstance().execute(BatchOption.NBA_RAKUTEN_WEEKLY_REPORT);
+        NbaRakutenBatchFactory.getInstance().execute(BatchOption.NBA_RAKUTEN_WEEKLY_REPORT);
     }
 }

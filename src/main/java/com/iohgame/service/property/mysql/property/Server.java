@@ -1,4 +1,4 @@
-package com.iohgame.service.mysql.property;
+package com.iohgame.service.property.mysql.property;
 
 import java.util.Properties;
 
