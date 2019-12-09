@@ -21,13 +21,18 @@ public abstract class ServerDBI extends ConnectBase
         }
     }
 
-    protected MysqlSlaveDBI<Server> master()
+    protected MysqlSlaveDBI<Server> slave()
     {
         return m_slave;
     }
 
-    protected MysqlMasterDBI<Server> slave()
+    protected MysqlMasterDBI<Server> master()
     {
         return m_master;
+    }
+
+    protected Boolean judge(String param)
+    {
+        return param == "1" ? true : false;
     }
 }

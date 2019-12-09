@@ -30,4 +30,9 @@ public abstract class LocalhostDBI extends ConnectBase
     {
         return m_master;
     }
+
+    protected Boolean judge(String param)
+    {
+        return param == "1" ? true : false;
+    }
 }
