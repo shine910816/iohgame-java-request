@@ -21,18 +21,13 @@ public abstract class LocalhostDBI extends ConnectBase
         }
     }
 
-    protected MysqlSlaveDBI<Localhost> master()
+    protected MysqlSlaveDBI<Localhost> slave()
     {
         return m_slave;
     }
 
-    protected MysqlMasterDBI<Localhost> slave()
+    protected MysqlMasterDBI<Localhost> master()
     {
         return m_master;
-    }
-
-    protected Boolean judge(String param)
-    {
-        return param.equals("0") ? false : true;
     }
 }

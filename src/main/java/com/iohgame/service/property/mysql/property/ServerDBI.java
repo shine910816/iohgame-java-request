@@ -30,9 +30,4 @@ public abstract class ServerDBI extends ConnectBase
     {
         return m_master;
     }
-
-    protected Boolean judge(String param)
-    {
-        return param.equals("0") ? false : true;
-    }
 }
