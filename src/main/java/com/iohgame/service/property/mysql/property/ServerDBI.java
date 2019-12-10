@@ -33,6 +33,6 @@ public abstract class ServerDBI extends ConnectBase
 
     protected Boolean judge(String param)
     {
-        return param == "1" ? true : false;
+        return param.equals("0") ? false : true;
     }
 }
