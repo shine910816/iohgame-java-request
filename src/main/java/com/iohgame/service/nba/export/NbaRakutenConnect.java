@@ -8,13 +8,13 @@ import com.iohgame.framework.connect.jira.property.JiraConnect;
 
 public class NbaRakutenConnect extends ConnectBase
 {
-    private JiraConnect<NbaRakuten> m_connect;
+    private JiraConnect<NbaRakutenAccount> m_connect;
 
     public NbaRakutenConnect()
     {
         if (m_connect == null)
         {
-            m_connect = new JiraConnect<NbaRakuten>(NbaRakuten.getInstance());
+            m_connect = new JiraConnect<NbaRakutenAccount>(NbaRakutenAccount.getInstance());
         }
     }
 

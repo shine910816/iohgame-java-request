@@ -7,7 +7,7 @@ import com.iohgame.framework.utility.MainClass;
 import com.iohgame.framework.utility.Utility;
 import com.iohgame.service.property.ConfigLoader;
 
-public class NbaRakuten extends MainClass implements JiraAccount
+public class NbaRakutenAccount extends MainClass implements JiraAccount
 {
     private final String m_requestUri;
     private final String m_accountName;
@@ -16,7 +16,7 @@ public class NbaRakuten extends MainClass implements JiraAccount
     private final String m_proxyPort;
     private final Integer m_authMax;
 
-    public NbaRakuten()
+    public NbaRakutenAccount()
     {
         Properties prop = ConfigLoader.getInstance().load("rakutennba");
         m_requestUri = prop.getProperty("request");
@@ -63,8 +63,8 @@ public class NbaRakuten extends MainClass implements JiraAccount
         return m_authMax;
     }
 
-    public static NbaRakuten getInstance()
+    public static NbaRakutenAccount getInstance()
     {
-        return new NbaRakuten();
+        return new NbaRakutenAccount();
     }
 }
