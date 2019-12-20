@@ -11,16 +11,16 @@ import com.iohgame.framework.utility.parameters.property.OptionElement;
 public class YamlLoader extends MainClass
 {
     @SuppressWarnings("unchecked")
-    public <T extends Enum<T> & OptionElement> Map<OptionElement, String> analysis(String filename, Class<T> columnClazz)
+    public <T extends Enum<T> & OptionElement> Map<OptionElement, Object> getMap(Object param, Class<T> columnClazz)
     {
         LOG.info("Start analysis map");
 
-        Map<String, String> fileMap = (Map<String, String>) Utility.yamlAnalysis(filename);
-        Map<OptionElement, String> result = new TreeMap<>();
+        Map<String, Object> fileMap = (Map<String, Object>) param;
+        Map<OptionElement, Object> result = new TreeMap<>();
         EnumSet<T> enumList = EnumSet.allOf(columnClazz);
         for (T val : enumList)
         {
-            String value = "";
+            Object value = null;
             if (fileMap.containsKey(val.name().toLowerCase()))
             {
                 value = fileMap.get(val.name().toLowerCase());
@@ -34,6 +34,11 @@ public class YamlLoader extends MainClass
         }
 
         return result;
+    }
+
+    public <T extends Enum<T> & OptionElement> Map<OptionElement, Object> analysis(String filename, Class<T> columnClazz)
+    {
+        return getMap(Utility.yamlAnalysis(filename), columnClazz);
     }
 
     public static YamlLoader getInstance()
