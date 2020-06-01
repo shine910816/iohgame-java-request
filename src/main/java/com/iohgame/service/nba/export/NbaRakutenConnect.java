@@ -35,4 +35,12 @@ public class NbaRakutenConnect extends ConnectBase
         return m_connect.searchIssue("project = RTNODP AND issuetype = Bug" + //
                 " AND fixVersion = \"Bug on NBA PROD.\" AND reporter in (\"wang.lichun@trans-cosmos.com.cn\", ts-zhaoxiong.a.yan) ORDER BY created ASC");
     }
+
+    public List<Issue> selectTodoTickets()
+    {
+        return m_connect.searchIssue("project = RTNODP AND issuetype = Bug AND " + //
+                "((status = Resolved AND reporter in (ts-zhaoxiong.a.yan, \"wang.lichun@trans-cosmos.com.cn\")) OR " + //
+                "(status != Closed AND assignee in (ts-zhaoxiong.a.yan, \"wang.lichun@trans-cosmos.com.cn\")))" + //
+                " ORDER BY created DESC");
+    }
 }
