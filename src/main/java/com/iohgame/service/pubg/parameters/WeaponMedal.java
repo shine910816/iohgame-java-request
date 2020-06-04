@@ -4,40 +4,41 @@ import com.iohgame.framework.utility.parameters.property.OptionElement;
 
 public enum WeaponMedal implements OptionElement
 {
-    DEAD_EYE("MedalDeadeye","",""),
+    DEAD_EYE("MedalDeadeye", "死亡之眼", ""),
 
-    ASSASSIN("MedalAssassin","",""),
+    ASSASSIN("MedalAssassin", "刺客", ""),
 
-    DOUBLE_KILL("MedalDoubleKill","",""),
+    DOUBLE_KILL("MedalDoubleKill", "双击败", ""),
 
-    PUNISHER("MedalPunisher","",""),
+    TRIPLE_KILL("MedalTripleKill", "三击败", ""),
 
-    FRENZY("MedalFrenzy","",""),
+    QUAD_KILL("MedalQuadKill", "四击败", ""),
 
-    LAST_MAN_STANDING("MedalLastManStanding","",""),
+    LAST_MAN_STANDING("MedalLastManStanding", "最终生存者", ""),
 
-    RAMPAGE("MedalRampage","",""),
+    PUNISHER("MedalPunisher", "子弹暴雨", ""),
 
-    LONGSHOT("MedalLongshot","",""),
+    LONGSHOT("MedalLongshot", "远距离", ""),
 
-    FIRST_BLOOD("MedalFirstBlood","",""),
+    FRENZY("MedalFrenzy", "狂战士", ""),
 
-    TRIPLE_KILL("MedalTripleKill","",""),
+    RAMPAGE("MedalRampage", "奋勇突进", ""),
 
-    QUAD_KILL("MedalQuadKill","",""),
+    ANNIHILATION("MedalAnnihilation", "全部淘汰", ""),
 
-    ANNIHILATION("MedalAnnihilation","","");
+    FIRST_BLOOD("MedalFirstBlood", "第一滴血", "");
 
     private String m_val;
     private String m_name;
     private String m_desc;
 
-    private WeaponMedal(String val,String name,String desc) {
-        m_val=val;
-        m_name=name;
-        m_desc=desc;
+    private WeaponMedal(String val, String name, String desc)
+    {
+        m_val = val;
+        m_name = name;
+        m_desc = desc;
     }
-    
+
     @Override
     public String val()
     {

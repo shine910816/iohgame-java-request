@@ -50,7 +50,6 @@ public class PubgServiceConnect extends ConnectBase
                     "xNTkxMjM0NjAwLCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6InNoaW5lOTEwODE2LWdtIn0.MEw_gHh_5WwRDV2zPU2g-ioOahkk-EJAed_w3YQL_RE");
             conn.setRequestProperty("Accept", "application/vnd.api+json");
             JsonParser parse = new JsonParser();
-
             return (JsonObject) parse.parse(new BufferedReader(new InputStreamReader(conn.getInputStream())));
         }
         catch (Exception e)
