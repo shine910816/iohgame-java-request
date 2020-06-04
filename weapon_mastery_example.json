@@ -1,0 +1,2007 @@
+{
+  "data": {
+    "type": "weaponMasterySummary",
+    "id": "account.a3210e0bdf77439ab840293d6ab9a22c",
+    "attributes": {
+      "platform": "steam",
+      "seasonId": "career",
+      "weaponSummaries": {
+        "Item_Weapon_AK47_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 14,
+            "Defeats": 3831,
+            "MostDamagePlayerInAGame": 1279.7001953125,
+            "DamagePlayer": 385960.55623340607,
+            "MostHeadShotsInAGame": 8,
+            "HeadShots": 1357,
+            "LongestDefeat": 202.4225616455078,
+            "LongRangeDefeats": 25,
+            "Kills": 2817,
+            "MostKillsInAGame": 12,
+            "Groggies": 2254,
+            "MostGroggiesInAGame": 11
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 899
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 675
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 470
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 223
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 482
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 30
+            },
+            {
+              "MedalId": "MedalRampage",
+              "Count": 15
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 18
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 60
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 22
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalQuadKill",
+              "Count": 5
+            }
+          ]
+        },
+        "Item_Weapon_AUG_C": {
+          "XPTotal": 847135,
+          "LevelCurrent": 92,
+          "TierCurrent": 10,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 8,
+            "Defeats": 261,
+            "MostDamagePlayerInAGame": 748.298828125,
+            "DamagePlayer": 25519.683267593384,
+            "MostHeadShotsInAGame": 6,
+            "HeadShots": 104,
+            "LongestDefeat": 182.10337829589844,
+            "LongRangeDefeats": 11,
+            "Kills": 200,
+            "MostKillsInAGame": 8,
+            "Groggies": 107,
+            "MostGroggiesInAGame": 4
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 63
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 50
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 24
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 32
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 20
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 22
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 2
+            }
+          ]
+        },
+        "Item_Weapon_AWM_C": {
+          "XPTotal": 399295,
+          "LevelCurrent": 56,
+          "TierCurrent": 6,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 5,
+            "Defeats": 119,
+            "MostDamagePlayerInAGame": 548.7869262695312,
+            "DamagePlayer": 13553.948944091797,
+            "MostHeadShotsInAGame": 5,
+            "HeadShots": 91,
+            "LongestDefeat": 350.7432861328125,
+            "LongRangeDefeats": 82,
+            "Kills": 66,
+            "MostKillsInAGame": 5,
+            "Groggies": 71,
+            "MostGroggiesInAGame": 5
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 91
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 9
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 4
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 72
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 6
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 5
+            }
+          ]
+        },
+        "Item_Weapon_Berreta686_C": {
+          "XPTotal": 910804,
+          "LevelCurrent": 97,
+          "TierCurrent": 10,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 5,
+            "Defeats": 462,
+            "MostDamagePlayerInAGame": 549.3816528320312,
+            "DamagePlayer": 45548.72539758682,
+            "MostHeadShotsInAGame": 2,
+            "HeadShots": 75,
+            "LongestDefeat": 30.51580238342285,
+            "LongRangeDefeats": 0,
+            "Kills": 344,
+            "MostKillsInAGame": 5,
+            "Groggies": 247,
+            "MostGroggiesInAGame": 4
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 63
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 51
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 14
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 33
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 28
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 4
+            }
+          ]
+        },
+        "Item_Weapon_BerylM762_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 14,
+            "Defeats": 1408,
+            "MostDamagePlayerInAGame": 1319.48974609375,
+            "DamagePlayer": 140683.21293735504,
+            "MostHeadShotsInAGame": 5,
+            "HeadShots": 495,
+            "LongestDefeat": 133.97889709472656,
+            "LongRangeDefeats": 6,
+            "Kills": 1043,
+            "MostKillsInAGame": 10,
+            "Groggies": 910,
+            "MostGroggiesInAGame": 9
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 333
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 247
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 172
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 158
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 69
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 13
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 20
+            },
+            {
+              "MedalId": "MedalRampage",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 5
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 2
+            }
+          ]
+        },
+        "Item_Weapon_BizonPP19_C": {
+          "XPTotal": 208901,
+          "LevelCurrent": 37,
+          "TierCurrent": 4,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 4,
+            "Defeats": 65,
+            "MostDamagePlayerInAGame": 406.8827209472656,
+            "DamagePlayer": 6745.253980636597,
+            "MostHeadShotsInAGame": 5,
+            "HeadShots": 38,
+            "LongestDefeat": 50.12758255004883,
+            "LongRangeDefeats": 0,
+            "Kills": 52,
+            "MostKillsInAGame": 3,
+            "Groggies": 40,
+            "MostGroggiesInAGame": 3
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 5
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 15
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 4
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 10
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_DP12_C": {
+          "XPTotal": 794462,
+          "LevelCurrent": 89,
+          "TierCurrent": 9,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 10,
+            "Defeats": 419,
+            "MostDamagePlayerInAGame": 722.2798461914062,
+            "DamagePlayer": 35574.650926589966,
+            "MostHeadShotsInAGame": 5,
+            "HeadShots": 115,
+            "LongestDefeat": 30.48846435546875,
+            "LongRangeDefeats": 0,
+            "Kills": 352,
+            "MostKillsInAGame": 8,
+            "Groggies": 237,
+            "MostGroggiesInAGame": 7
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 81
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 37
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 57
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 4
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 47
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 22
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 8
+            },
+            {
+              "MedalId": "MedalRampage",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalQuadKill",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_DP28_C": {
+          "XPTotal": 125730,
+          "LevelCurrent": 27,
+          "TierCurrent": 3,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 3,
+            "Defeats": 38,
+            "MostDamagePlayerInAGame": 320.0923767089844,
+            "DamagePlayer": 4260.805885314941,
+            "MostHeadShotsInAGame": 4,
+            "HeadShots": 10,
+            "LongestDefeat": 86.4520492553711,
+            "LongRangeDefeats": 0,
+            "Kills": 25,
+            "MostKillsInAGame": 2,
+            "Groggies": 24,
+            "MostGroggiesInAGame": 3
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 9
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 5
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_DesertEagle_C": {
+          "XPTotal": 13061,
+          "LevelCurrent": 6,
+          "TierCurrent": 1,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 1,
+            "Defeats": 4,
+            "MostDamagePlayerInAGame": 143.39999389648438,
+            "DamagePlayer": 474.08827018737793,
+            "MostHeadShotsInAGame": 1,
+            "HeadShots": 2,
+            "LongestDefeat": 26.295581817626953,
+            "LongRangeDefeats": 0,
+            "Kills": 4,
+            "MostKillsInAGame": 1,
+            "Groggies": 2,
+            "MostGroggiesInAGame": 1
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_FNFal_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 8,
+            "Defeats": 378,
+            "MostDamagePlayerInAGame": 842.2769775390625,
+            "DamagePlayer": 55483.52709007263,
+            "MostHeadShotsInAGame": 5,
+            "HeadShots": 244,
+            "LongestDefeat": 548.1908569335938,
+            "LongRangeDefeats": 232,
+            "Kills": 277,
+            "MostKillsInAGame": 5,
+            "Groggies": 238,
+            "MostGroggiesInAGame": 8
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 114
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 83
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 15
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 68
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 4
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 8
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 3
+            }
+          ]
+        },
+        "Item_Weapon_G18_C": {
+          "XPTotal": 24738,
+          "LevelCurrent": 10,
+          "TierCurrent": 2,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 2,
+            "Defeats": 7,
+            "MostDamagePlayerInAGame": 166.0323486328125,
+            "DamagePlayer": 728.0295562744141,
+            "MostHeadShotsInAGame": 2,
+            "HeadShots": 6,
+            "LongestDefeat": 4.391155242919922,
+            "LongRangeDefeats": 0,
+            "Kills": 4,
+            "MostKillsInAGame": 1,
+            "Groggies": 5,
+            "MostGroggiesInAGame": 2
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_G36C_C": {
+          "XPTotal": 110819,
+          "LevelCurrent": 25,
+          "TierCurrent": 3,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 5,
+            "Defeats": 42,
+            "MostDamagePlayerInAGame": 538.1622314453125,
+            "DamagePlayer": 4393.850496292114,
+            "MostHeadShotsInAGame": 4,
+            "HeadShots": 12,
+            "LongestDefeat": 147.60861206054688,
+            "LongRangeDefeats": 4,
+            "Kills": 28,
+            "MostKillsInAGame": 4,
+            "Groggies": 32,
+            "MostGroggiesInAGame": 3
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 5
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 8
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 4
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 6
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 2
+            }
+          ]
+        },
+        "Item_Weapon_Groza_C": {
+          "XPTotal": 894661,
+          "LevelCurrent": 96,
+          "TierCurrent": 10,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 11,
+            "Defeats": 298,
+            "MostDamagePlayerInAGame": 988.91015625,
+            "DamagePlayer": 29624.226558685303,
+            "MostHeadShotsInAGame": 5,
+            "HeadShots": 104,
+            "LongestDefeat": 223.10342407226562,
+            "LongRangeDefeats": 17,
+            "Kills": 213,
+            "MostKillsInAGame": 8,
+            "Groggies": 128,
+            "MostGroggiesInAGame": 7
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 36
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 58
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 41
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 21
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 39
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 17
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalRampage",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_HK416_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 16,
+            "Defeats": 12908,
+            "MostDamagePlayerInAGame": 1584.115234375,
+            "DamagePlayer": 1313606.0422229767,
+            "MostHeadShotsInAGame": 13,
+            "HeadShots": 5285,
+            "LongestDefeat": 291.3182678222656,
+            "LongRangeDefeats": 315,
+            "Kills": 9077,
+            "MostKillsInAGame": 15,
+            "Groggies": 7295,
+            "MostGroggiesInAGame": 12
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 2794
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 2004
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 1419
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 1806
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 1040
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 148
+            },
+            {
+              "MedalId": "MedalRampage",
+              "Count": 128
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 17
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 32
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 151
+            },
+            {
+              "MedalId": "MedalQuadKill",
+              "Count": 13
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 85
+            }
+          ]
+        },
+        "Item_Weapon_Kar98k_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 10,
+            "Defeats": 1094,
+            "MostDamagePlayerInAGame": 1242.1171875,
+            "DamagePlayer": 131443.0720257759,
+            "MostHeadShotsInAGame": 12,
+            "HeadShots": 982,
+            "LongestDefeat": 572.327880859375,
+            "LongRangeDefeats": 580,
+            "Kills": 620,
+            "MostKillsInAGame": 10,
+            "Groggies": 623,
+            "MostGroggiesInAGame": 6
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 905
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 667
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 7
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 105
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 25
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 20
+            },
+            {
+              "MedalId": "MedalRampage",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_M16A4_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 11,
+            "Defeats": 1041,
+            "MostDamagePlayerInAGame": 1072.4569091796875,
+            "DamagePlayer": 113072.58009719849,
+            "MostHeadShotsInAGame": 5,
+            "HeadShots": 402,
+            "LongestDefeat": 230.70924377441406,
+            "LongRangeDefeats": 55,
+            "Kills": 817,
+            "MostKillsInAGame": 8,
+            "Groggies": 665,
+            "MostGroggiesInAGame": 7
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 250
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 88
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 187
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 140
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 25
+            },
+            {
+              "MedalId": "MedalQuadKill",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 7
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 15
+            },
+            {
+              "MedalId": "MedalRampage",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 32
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 4
+            }
+          ]
+        },
+        "Item_Weapon_M1911_C": {
+          "XPTotal": 123328,
+          "LevelCurrent": 26,
+          "TierCurrent": 3,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 2,
+            "Defeats": 34,
+            "MostDamagePlayerInAGame": 220.12286376953125,
+            "DamagePlayer": 4754.724182128906,
+            "MostHeadShotsInAGame": 2,
+            "HeadShots": 18,
+            "LongestDefeat": 42.97324752807617,
+            "LongRangeDefeats": 0,
+            "Kills": 21,
+            "MostKillsInAGame": 2,
+            "Groggies": 27,
+            "MostGroggiesInAGame": 2
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 5
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 7
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 4
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 4
+            }
+          ]
+        },
+        "Item_Weapon_M249_C": {
+          "XPTotal": 868248,
+          "LevelCurrent": 94,
+          "TierCurrent": 10,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 8,
+            "Defeats": 262,
+            "MostDamagePlayerInAGame": 811.6925659179688,
+            "DamagePlayer": 25561.623987197876,
+            "MostHeadShotsInAGame": 6,
+            "HeadShots": 99,
+            "LongestDefeat": 240.18521118164062,
+            "LongRangeDefeats": 36,
+            "Kills": 190,
+            "MostKillsInAGame": 8,
+            "Groggies": 157,
+            "MostGroggiesInAGame": 5
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 58
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 43
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 31
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 34
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 15
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 12
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 2
+            }
+          ]
+        },
+        "Item_Weapon_M24_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 6,
+            "Defeats": 381,
+            "MostDamagePlayerInAGame": 654.263671875,
+            "DamagePlayer": 44607.66617202759,
+            "MostHeadShotsInAGame": 6,
+            "HeadShots": 333,
+            "LongestDefeat": 467.4072265625,
+            "LongRangeDefeats": 218,
+            "Kills": 243,
+            "MostKillsInAGame": 6,
+            "Groggies": 181,
+            "MostGroggiesInAGame": 4
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 316
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 242
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 8
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 35
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 7
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 10
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_M9_C": {
+          "XPTotal": 60172,
+          "LevelCurrent": 17,
+          "TierCurrent": 2,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 2,
+            "Defeats": 18,
+            "MostDamagePlayerInAGame": 200,
+            "DamagePlayer": 2084.1850261688232,
+            "MostHeadShotsInAGame": 2,
+            "HeadShots": 8,
+            "LongestDefeat": 13.334957122802734,
+            "LongRangeDefeats": 0,
+            "Kills": 13,
+            "MostKillsInAGame": 1,
+            "Groggies": 16,
+            "MostGroggiesInAGame": 2
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_MP5K_C": {
+          "XPTotal": 39280,
+          "LevelCurrent": 13,
+          "TierCurrent": 2,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 3,
+            "Defeats": 17,
+            "MostDamagePlayerInAGame": 300,
+            "DamagePlayer": 1869.5567817687988,
+            "MostHeadShotsInAGame": 2,
+            "HeadShots": 8,
+            "LongestDefeat": 53.10087966918945,
+            "LongRangeDefeats": 0,
+            "Kills": 11,
+            "MostKillsInAGame": 3,
+            "Groggies": 12,
+            "MostGroggiesInAGame": 3
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_Mini14_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 7,
+            "Defeats": 501,
+            "MostDamagePlayerInAGame": 1105.1942138671875,
+            "DamagePlayer": 79622.54169273376,
+            "MostHeadShotsInAGame": 7,
+            "HeadShots": 416,
+            "LongestDefeat": 698.2432250976562,
+            "LongRangeDefeats": 364,
+            "Kills": 289,
+            "MostKillsInAGame": 7,
+            "Groggies": 358,
+            "MostGroggiesInAGame": 7
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 145
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 101
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 15
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 114
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 6
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 23
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 6
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_Mk14_C": {
+          "XPTotal": 431815,
+          "LevelCurrent": 59,
+          "TierCurrent": 6,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 6,
+            "Defeats": 100,
+            "MostDamagePlayerInAGame": 702.5564575195312,
+            "DamagePlayer": 13372.204040527344,
+            "MostHeadShotsInAGame": 4,
+            "HeadShots": 42,
+            "LongestDefeat": 505.0178527832031,
+            "LongRangeDefeats": 57,
+            "Kills": 54,
+            "MostKillsInAGame": 4,
+            "Groggies": 60,
+            "MostGroggiesInAGame": 5
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 10
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 27
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 16
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 20
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_Mk47Mutant_C": {
+          "XPTotal": 433922,
+          "LevelCurrent": 60,
+          "TierCurrent": 7,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 5,
+            "Defeats": 139,
+            "MostDamagePlayerInAGame": 498.0889587402344,
+            "DamagePlayer": 14942.66678237915,
+            "MostHeadShotsInAGame": 4,
+            "HeadShots": 44,
+            "LongestDefeat": 224.3994140625,
+            "LongRangeDefeats": 16,
+            "Kills": 94,
+            "MostKillsInAGame": 3,
+            "Groggies": 98,
+            "MostGroggiesInAGame": 4
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 25
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 21
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 17
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 9
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 5
+            }
+          ]
+        },
+        "Item_Weapon_NagantM1895_C": {
+          "XPTotal": 16202,
+          "LevelCurrent": 7,
+          "TierCurrent": 1,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 2,
+            "Defeats": 5,
+            "MostDamagePlayerInAGame": 238.58917236328125,
+            "DamagePlayer": 636.6681518554688,
+            "MostHeadShotsInAGame": 2,
+            "HeadShots": 3,
+            "LongestDefeat": 23.256488800048828,
+            "LongRangeDefeats": 0,
+            "Kills": 3,
+            "MostKillsInAGame": 1,
+            "Groggies": 3,
+            "MostGroggiesInAGame": 1
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_QBU88_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 5,
+            "Defeats": 279,
+            "MostDamagePlayerInAGame": 733.240966796875,
+            "DamagePlayer": 34468.303689956665,
+            "MostHeadShotsInAGame": 6,
+            "HeadShots": 152,
+            "LongestDefeat": 275.5505065917969,
+            "LongRangeDefeats": 99,
+            "Kills": 192,
+            "MostKillsInAGame": 6,
+            "Groggies": 178,
+            "MostGroggiesInAGame": 4
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 19
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 27
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 64
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 58
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 6
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 4
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 2
+            }
+          ]
+        },
+        "Item_Weapon_QBZ95_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 13,
+            "Defeats": 2621,
+            "MostDamagePlayerInAGame": 1408.2152099609375,
+            "DamagePlayer": 261571.37382221222,
+            "MostHeadShotsInAGame": 6,
+            "HeadShots": 957,
+            "LongestDefeat": 274.0569763183594,
+            "LongRangeDefeats": 20,
+            "Kills": 2004,
+            "MostKillsInAGame": 9,
+            "Groggies": 1435,
+            "MostGroggiesInAGame": 7
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 543
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 252
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 387
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 311
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 93
+            },
+            {
+              "MedalId": "MedalRampage",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 23
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 39
+            },
+            {
+              "MedalId": "MedalQuadKill",
+              "Count": 4
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 7
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 2
+            }
+          ]
+        },
+        "Item_Weapon_Rhino_C": {
+          "XPTotal": 4301,
+          "LevelCurrent": 2,
+          "TierCurrent": 1,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 1,
+            "Defeats": 1,
+            "MostDamagePlayerInAGame": 100,
+            "DamagePlayer": 187.31742477416992,
+            "MostHeadShotsInAGame": 0,
+            "HeadShots": 0,
+            "LongestDefeat": 5.157291412353516,
+            "LongRangeDefeats": 0,
+            "Kills": 0,
+            "MostKillsInAGame": 0,
+            "Groggies": 1,
+            "MostGroggiesInAGame": 1
+          },
+          "Medals": []
+        },
+        "Item_Weapon_SCAR-L_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 10,
+            "Defeats": 695,
+            "MostDamagePlayerInAGame": 956.9348754882812,
+            "DamagePlayer": 75390.97124481201,
+            "MostHeadShotsInAGame": 6,
+            "HeadShots": 363,
+            "LongestDefeat": 348.876220703125,
+            "LongRangeDefeats": 46,
+            "Kills": 485,
+            "MostKillsInAGame": 7,
+            "Groggies": 374,
+            "MostGroggiesInAGame": 6
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 86
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 62
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 166
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 35
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 122
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 11
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 7
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalQuadKill",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalRampage",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_SKS_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 6,
+            "Defeats": 315,
+            "MostDamagePlayerInAGame": 775.0912475585938,
+            "DamagePlayer": 45762.8708357811,
+            "MostHeadShotsInAGame": 5,
+            "HeadShots": 210,
+            "LongestDefeat": 388.3801574707031,
+            "LongRangeDefeats": 159,
+            "Kills": 207,
+            "MostKillsInAGame": 5,
+            "Groggies": 218,
+            "MostGroggiesInAGame": 4
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 95
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 75
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 18
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 43
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 7
+            }
+          ]
+        },
+        "Item_Weapon_Saiga12_C": {
+          "XPTotal": 743473,
+          "LevelCurrent": 85,
+          "TierCurrent": 9,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 7,
+            "Defeats": 473,
+            "MostDamagePlayerInAGame": 571.742431640625,
+            "DamagePlayer": 45429.87740325928,
+            "MostHeadShotsInAGame": 3,
+            "HeadShots": 109,
+            "LongestDefeat": 30.145509719848633,
+            "LongRangeDefeats": 0,
+            "Kills": 387,
+            "MostKillsInAGame": 6,
+            "Groggies": 278,
+            "MostGroggiesInAGame": 6
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 25
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 61
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 77
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 58
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 27
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 7
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 8
+            },
+            {
+              "MedalId": "MedalQuadKill",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 3
+            }
+          ]
+        },
+        "Item_Weapon_Sawnoff_C": {
+          "XPTotal": 4347,
+          "LevelCurrent": 2,
+          "TierCurrent": 1,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 2,
+            "Defeats": 2,
+            "MostDamagePlayerInAGame": 200,
+            "DamagePlayer": 307.2766513824463,
+            "MostHeadShotsInAGame": 0,
+            "HeadShots": 0,
+            "LongestDefeat": 6.419010639190674,
+            "LongRangeDefeats": 0,
+            "Kills": 0,
+            "MostKillsInAGame": 0,
+            "Groggies": 2,
+            "MostGroggiesInAGame": 2
+          },
+          "Medals": []
+        },
+        "Item_Weapon_Thompson_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 7,
+            "Defeats": 797,
+            "MostDamagePlayerInAGame": 752.2000122070312,
+            "DamagePlayer": 77407.80890464783,
+            "MostHeadShotsInAGame": 4,
+            "HeadShots": 253,
+            "LongestDefeat": 74.54126739501953,
+            "LongRangeDefeats": 0,
+            "Kills": 605,
+            "MostKillsInAGame": 6,
+            "Groggies": 539,
+            "MostGroggiesInAGame": 5
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 110
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 123
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 78
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 14
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 15
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 54
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 4
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 17
+            },
+            {
+              "MedalId": "MedalQuadKill",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_UMP_C": {
+          "XPTotal": 937419,
+          "LevelCurrent": 98,
+          "TierCurrent": 10,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 5,
+            "Defeats": 491,
+            "MostDamagePlayerInAGame": 500,
+            "DamagePlayer": 48885.8730802536,
+            "MostHeadShotsInAGame": 4,
+            "HeadShots": 141,
+            "LongestDefeat": 73.07909393310547,
+            "LongRangeDefeats": 0,
+            "Kills": 389,
+            "MostKillsInAGame": 5,
+            "Groggies": 317,
+            "MostGroggiesInAGame": 4
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 56
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 81
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 59
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 30
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 19
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 6
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalQuadKill",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_UZI_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 13,
+            "Defeats": 1886,
+            "MostDamagePlayerInAGame": 1134.28466796875,
+            "DamagePlayer": 171278.0629310608,
+            "MostHeadShotsInAGame": 8,
+            "HeadShots": 1102,
+            "LongestDefeat": 102.04338073730469,
+            "LongRangeDefeats": 1,
+            "Kills": 1392,
+            "MostKillsInAGame": 9,
+            "Groggies": 1143,
+            "MostGroggiesInAGame": 6
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 370
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 248
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 185
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 119
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 16
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 53
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 4
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 19
+            },
+            {
+              "MedalId": "MedalRampage",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_VSS_C": {
+          "XPTotal": 156396,
+          "LevelCurrent": 31,
+          "TierCurrent": 4,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 3,
+            "Defeats": 43,
+            "MostDamagePlayerInAGame": 384.9895935058594,
+            "DamagePlayer": 4560.143510818481,
+            "MostHeadShotsInAGame": 2,
+            "HeadShots": 19,
+            "LongestDefeat": 148.87681579589844,
+            "LongRangeDefeats": 7,
+            "Kills": 31,
+            "MostKillsInAGame": 3,
+            "Groggies": 25,
+            "MostGroggiesInAGame": 2
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 3
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 10
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 9
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 2
+            }
+          ]
+        },
+        "Item_Weapon_Vector_C": {
+          "XPTotal": 952500,
+          "LevelCurrent": 100,
+          "TierCurrent": 11,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 12,
+            "Defeats": 2625,
+            "MostDamagePlayerInAGame": 1105.660888671875,
+            "DamagePlayer": 252128.18865299225,
+            "MostHeadShotsInAGame": 7,
+            "HeadShots": 1125,
+            "LongestDefeat": 94.6550064086914,
+            "LongRangeDefeats": 0,
+            "Kills": 1860,
+            "MostKillsInAGame": 8,
+            "Groggies": 1641,
+            "MostGroggiesInAGame": 6
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 459
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 328
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 353
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 216
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 82
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 42
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 35
+            },
+            {
+              "MedalId": "MedalRampage",
+              "Count": 2
+            },
+            {
+              "MedalId": "MedalLastManStanding",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalQuadKill",
+              "Count": 7
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 12
+            }
+          ]
+        },
+        "Item_Weapon_Win1894_C": {
+          "XPTotal": 41164,
+          "LevelCurrent": 13,
+          "TierCurrent": 2,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 3,
+            "Defeats": 9,
+            "MostDamagePlayerInAGame": 255.01565551757812,
+            "DamagePlayer": 980.0612297058105,
+            "MostHeadShotsInAGame": 2,
+            "HeadShots": 7,
+            "LongestDefeat": 217.90536499023438,
+            "LongRangeDefeats": 2,
+            "Kills": 2,
+            "MostKillsInAGame": 1,
+            "Groggies": 8,
+            "MostGroggiesInAGame": 3
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 7
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 6
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalLongshot",
+              "Count": 1
+            }
+          ]
+        },
+        "Item_Weapon_Winchester_C": {
+          "XPTotal": 465420,
+          "LevelCurrent": 62,
+          "TierCurrent": 7,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 6,
+            "Defeats": 236,
+            "MostDamagePlayerInAGame": 587.1243286132812,
+            "DamagePlayer": 23676.18773841858,
+            "MostHeadShotsInAGame": 3,
+            "HeadShots": 59,
+            "LongestDefeat": 47.658817291259766,
+            "LongRangeDefeats": 0,
+            "Kills": 206,
+            "MostKillsInAGame": 6,
+            "Groggies": 158,
+            "MostGroggiesInAGame": 6
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 36
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 32
+            },
+            {
+              "MedalId": "MedalDoubleKill",
+              "Count": 25
+            },
+            {
+              "MedalId": "MedalPunisher",
+              "Count": 15
+            },
+            {
+              "MedalId": "MedalFrenzy",
+              "Count": 4
+            },
+            {
+              "MedalId": "MedalAnnihilation",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalTripleKill",
+              "Count": 5
+            },
+            {
+              "MedalId": "MedalFirstBlood",
+              "Count": 8
+            }
+          ]
+        },
+        "Item_Weapon_vz61Skorpion_C": {
+          "XPTotal": 13086,
+          "LevelCurrent": 6,
+          "TierCurrent": 1,
+          "StatsTotal": {
+            "MostDefeatsInAGame": 1,
+            "Defeats": 3,
+            "MostDamagePlayerInAGame": 148.39999389648438,
+            "DamagePlayer": 446.90499114990234,
+            "MostHeadShotsInAGame": 1,
+            "HeadShots": 1,
+            "LongestDefeat": 9.497834205627441,
+            "LongRangeDefeats": 0,
+            "Kills": 2,
+            "MostKillsInAGame": 1,
+            "Groggies": 3,
+            "MostGroggiesInAGame": 1
+          },
+          "Medals": [
+            {
+              "MedalId": "MedalDeadeye",
+              "Count": 1
+            },
+            {
+              "MedalId": "MedalAssassin",
+              "Count": 1
+            }
+          ]
+        }
+      },
+      "latestMatchId": "1b6029b2-f0cf-4501-971d-08eb29052899"
+    }
+  },
+  "links": {
+    "self": "https://api.pubg.com/shards/steam/players/account.a3210e0bdf77439ab840293d6ab9a22c/weapon_mastery"
+  },
+  "meta": {}
+}
