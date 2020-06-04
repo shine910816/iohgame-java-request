@@ -1,4 +1,4 @@
-package com.iohgame.service.pubg.parameters;
+package com.iohgame.service.pubg.property;
 
 import com.iohgame.framework.utility.parameters.property.OptionElement;
 
@@ -18,7 +18,7 @@ public enum WeaponMedal implements OptionElement
 
     PUNISHER("MedalPunisher", "子弹暴雨", ""),
 
-    LONGSHOT("MedalLongshot", "远距离", ""),
+    LONG_SHOT("MedalLongshot", "远距离", ""),
 
     FRENZY("MedalFrenzy", "狂战士", ""),
 
