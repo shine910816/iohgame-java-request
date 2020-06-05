@@ -49,41 +49,41 @@ public class WeaponMasteryDao extends MainClass implements Dao
     }
 
     /**
-     * 经验值
+     * 等级
      */
-  public Integer level()
+    public Integer level()
     {
         return m_level;
     }
 
-  /**
-   * 经验值
-   */
-   public Integer tier()
+    /**
+     * 进阶等级
+     */
+    public Integer tier()
     {
         return m_tier;
     }
 
-   /**
-    * 经验值
-    */
-  public WeaponStats stats()
+    /**
+     * 数据统计
+     */
+    public WeaponStats stats()
     {
         return m_stats;
     }
 
-  /**
-   * 经验值
-   */
-  public Boolean isMedalDisp()
+    /**
+     * 奖牌展示
+     */
+    public Boolean isMedalDisp()
     {
         return m_medalDisp;
     }
 
-  /**
-   * 经验值
-   */
-   public Map<WeaponMedal, Integer> medals()
+    /**
+     * 奖牌列表
+     */
+    public Map<WeaponMedal, Integer> medals()
     {
         return m_medals;
     }
@@ -120,99 +120,104 @@ public class WeaponMasteryDao extends MainClass implements Dao
         }
 
         /**
-         * 经验值
+         * 总击败
          */
-     public Integer defeats()
+        public Integer defeats()
         {
             return m_defeats;
         }
 
-     /**
-      * 经验值
-      */
-     public Integer mostDefeatsInAGame()
+        /**
+         * 单场最高击败
+         */
+        public Integer mostDefeatsInAGame()
         {
             return m_defeatsMax;
         }
 
-     /**
-      * 经验值
-      */
-    public Double damagePlayer()
+        /**
+         * 总伤害
+         */
+        public Double damagePlayer()
         {
             return m_damagePlayer;
         }
 
-    /**
-     * 经验值
-     */
-     public Double mostDamagePlayerInAGame()
+        /**
+         * 单场最高伤害
+         */
+        public Double mostDamagePlayerInAGame()
         {
             return m_damagePlayerMax;
         }
 
-     /**
-      * 经验值
-      */
-    public Integer headShots()
+        /**
+         * 总爆头
+         */
+        public Integer headShots()
         {
             return m_headShots;
         }
 
-    /**
-     * 经验值
-     */
-    public Integer mostHeadShotsInAGame()
+        /**
+         * 单场最高爆头
+         */
+        public Integer mostHeadShotsInAGame()
         {
             return m_headShotsMax;
         }
 
-    /**
-     * 经验值
-     */
-     public Double longestDefeat()
+        /**
+         * 最远击败距离
+         */
+        public Double longestDefeat()
         {
             return m_longestDefeat;
         }
 
-     /**
-      * 经验值
-      */
-    public Integer longRangeDefeats()
+        /**
+         * 远距离击败数
+         */
+        public Integer longRangeDefeats()
         {
             return m_longRangeDefeats;
         }
 
-    /**
-     * 经验值
-     */
-     public Integer kills()
+        /**
+         * 总击杀
+         */
+        public Integer kills()
         {
             return m_kills;
         }
 
-     /**
-      * 经验值
-      */
-    public Integer mostKillsInAGame()
+        /**
+         * 单场最高击杀
+         */
+        public Integer mostKillsInAGame()
         {
             return m_killsMax;
         }
 
-    /**
-     * 经验值
-     */
-     public Integer groggies()
+        /**
+         * 总击倒
+         */
+        public Integer groggies()
         {
             return m_groggies;
         }
 
-     /**
-      * 经验值
-      */
-     public Integer mostGroggiesInAGame()
+        /**
+         * 单场最高击倒
+         */
+        public Integer mostGroggiesInAGame()
         {
             return m_groggiesMax;
         }
+    }
+
+    public static WeaponMasteryDao build(JsonObject json)
+    {
+        return new WeaponMasteryDao(json);
     }
 }
