@@ -12,17 +12,17 @@ public class WeaponMasteryImpl extends MainClass implements WeaponMastery
 
     public WeaponMasteryImpl(String accountId)
     {
-        m_weaponMastery=PubgServiceConnect.getInstance().getWeaponMastery(accountId)//
-        .get("data").getAsJsonObject()//
-        .get("attributes").getAsJsonObject()//
-        .get("weaponSummaries").getAsJsonObject();
+        m_weaponMastery = PubgServiceConnect.getInstance().getWeaponMastery(accountId) //
+                .get("data").getAsJsonObject() //
+                .get("attributes").getAsJsonObject() //
+                .get("weaponSummaries").getAsJsonObject();
     }
 
-    private WeaponMasteryDao getWeaponMasteryDao(Weapon weapon)
+    public WeaponMasteryDao getWeaponMasteryDao(Weapon weapon)
     {
         return WeaponMasteryDao.build(m_weaponMastery.get(weapon.val()).getAsJsonObject());
     }
-    
+
     @Override
     public WeaponMasteryDao p92()
     {
@@ -32,287 +32,246 @@ public class WeaponMasteryImpl extends MainClass implements WeaponMastery
     @Override
     public WeaponMasteryDao p1911()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.P1911);
     }
 
     @Override
     public WeaponMasteryDao m1895()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.M1895);
     }
 
     @Override
     public WeaponMasteryDao g18c()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.G18C);
     }
 
     @Override
     public WeaponMasteryDao r45()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.R45);
     }
 
     @Override
     public WeaponMasteryDao sawnoff()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.SAWNOFF);
     }
 
     @Override
     public WeaponMasteryDao skorpion()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.SKORPION);
     }
 
     @Override
     public WeaponMasteryDao desertEagle()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.DESERT_EAGLE);
     }
 
     @Override
     public WeaponMasteryDao crossbow()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.CROSSBOW);
     }
 
     @Override
     public WeaponMasteryDao s1897()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.S1897);
     }
 
     @Override
     public WeaponMasteryDao s686()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.S686);
     }
 
     @Override
     public WeaponMasteryDao s12k()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.S12K);
     }
 
     @Override
     public WeaponMasteryDao dbs()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.DBS);
     }
 
     @Override
     public WeaponMasteryDao uzi()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.UZI);
     }
 
     @Override
     public WeaponMasteryDao ump45()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.UMP45);
     }
 
     @Override
     public WeaponMasteryDao vector()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.VECTOR);
     }
 
     @Override
     public WeaponMasteryDao thompson()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.THOMPSON);
     }
 
     @Override
     public WeaponMasteryDao pp19()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.PP19);
     }
 
     @Override
     public WeaponMasteryDao mp5()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.MP5);
     }
 
     @Override
     public WeaponMasteryDao akm()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.AKM);
     }
 
     @Override
     public WeaponMasteryDao m16a4()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.M16A4);
     }
 
     @Override
     public WeaponMasteryDao scarl()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.SCARL);
     }
 
     @Override
     public WeaponMasteryDao m416()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.M416);
     }
 
     @Override
     public WeaponMasteryDao groza()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.GROZA);
     }
 
     @Override
     public WeaponMasteryDao m762()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.M762);
     }
 
     @Override
     public WeaponMasteryDao qbz()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.QBZ);
     }
 
     @Override
     public WeaponMasteryDao g36c()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.G36C);
     }
 
     @Override
     public WeaponMasteryDao aug()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.AUG);
     }
 
     @Override
     public WeaponMasteryDao mk47()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.MK47);
     }
 
     @Override
     public WeaponMasteryDao vss()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.VSS);
     }
 
     @Override
     public WeaponMasteryDao sks()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.SKS);
     }
 
     @Override
     public WeaponMasteryDao mk14()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.MK14);
     }
 
     @Override
     public WeaponMasteryDao mini14()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.MINI14);
     }
 
     @Override
     public WeaponMasteryDao slr()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.SLR);
     }
 
     @Override
     public WeaponMasteryDao qbu()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.QBU);
     }
 
     @Override
     public WeaponMasteryDao kar98k()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.KAR98K);
     }
 
     @Override
     public WeaponMasteryDao m24()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.M24);
     }
 
     @Override
     public WeaponMasteryDao awm()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.AWM);
     }
 
     @Override
     public WeaponMasteryDao win94()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.WIN94);
     }
 
     @Override
     public WeaponMasteryDao mosinNagant()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.MOSIN_NAGANT);
     }
 
     @Override
     public WeaponMasteryDao m249()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.M249);
     }
 
     @Override
     public WeaponMasteryDao dp28()
     {
-        // TODO Auto-generated method stub
-        return null;
+        return getWeaponMasteryDao(Weapon.DP28);
     }
 }
