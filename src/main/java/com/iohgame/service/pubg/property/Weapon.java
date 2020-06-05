@@ -1,8 +1,8 @@
 package com.iohgame.service.pubg.property;
 
-import com.iohgame.framework.utility.parameters.property.OptionElement;
+import com.iohgame.framework.utility.parameters.property.Parameters;
 
-public enum Weapon implements OptionElement
+public enum Weapon implements Parameters
 {
     P92("Item_Weapon_M9_C", "P92"),
 
@@ -106,5 +106,11 @@ public enum Weapon implements OptionElement
     public String getName()
     {
         return m_name;
+    }
+
+    @Override
+    public Parameters unknown()
+    {
+        return null;
     }
 }

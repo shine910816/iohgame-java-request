@@ -1,8 +1,8 @@
 package com.iohgame.service.pubg.property;
 
-import com.iohgame.framework.utility.parameters.property.OptionElement;
+import com.iohgame.framework.utility.parameters.property.Parameters;
 
-public enum WeaponMedal implements OptionElement
+public enum WeaponMedal implements Parameters
 {
     DEAD_EYE("MedalDeadeye", "死亡之眼", ""),
 
@@ -53,5 +53,11 @@ public enum WeaponMedal implements OptionElement
     public String getDesc()
     {
         return m_desc;
+    }
+
+    @Override
+    public Parameters unknown()
+    {
+        return null;
     }
 }
