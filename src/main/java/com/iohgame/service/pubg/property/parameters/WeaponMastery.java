@@ -1,9 +1,12 @@
 package com.iohgame.service.pubg.property.parameters;
 
+import com.iohgame.service.pubg.property.Weapon;
 import com.iohgame.service.pubg.property.WeaponMasteryDao;
 
 public interface WeaponMastery
 {
+    public WeaponMasteryDao get(Weapon weapon);
+
     public WeaponMasteryDao p92();
 
     public WeaponMasteryDao p1911();

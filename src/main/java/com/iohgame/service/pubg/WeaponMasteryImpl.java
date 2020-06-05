@@ -18,260 +18,265 @@ public class WeaponMasteryImpl extends MainClass implements WeaponMastery
                 .get("weaponSummaries").getAsJsonObject();
     }
 
-    public WeaponMasteryDao getWeaponMasteryDao(Weapon weapon)
+    @Override
+    public WeaponMasteryDao get(Weapon weapon)
     {
+        if (!m_weaponMastery.has(weapon.val()))
+        {
+            return null;
+        }
         return WeaponMasteryDao.build(m_weaponMastery.get(weapon.val()).getAsJsonObject());
     }
 
     @Override
     public WeaponMasteryDao p92()
     {
-        return getWeaponMasteryDao(Weapon.P92);
+        return get(Weapon.P92);
     }
 
     @Override
     public WeaponMasteryDao p1911()
     {
-        return getWeaponMasteryDao(Weapon.P1911);
+        return get(Weapon.P1911);
     }
 
     @Override
     public WeaponMasteryDao m1895()
     {
-        return getWeaponMasteryDao(Weapon.M1895);
+        return get(Weapon.M1895);
     }
 
     @Override
     public WeaponMasteryDao g18c()
     {
-        return getWeaponMasteryDao(Weapon.G18C);
+        return get(Weapon.G18C);
     }
 
     @Override
     public WeaponMasteryDao r45()
     {
-        return getWeaponMasteryDao(Weapon.R45);
+        return get(Weapon.R45);
     }
 
     @Override
     public WeaponMasteryDao sawnoff()
     {
-        return getWeaponMasteryDao(Weapon.SAWNOFF);
+        return get(Weapon.SAWNOFF);
     }
 
     @Override
     public WeaponMasteryDao skorpion()
     {
-        return getWeaponMasteryDao(Weapon.SKORPION);
+        return get(Weapon.SKORPION);
     }
 
     @Override
     public WeaponMasteryDao desertEagle()
     {
-        return getWeaponMasteryDao(Weapon.DESERT_EAGLE);
+        return get(Weapon.DESERT_EAGLE);
     }
 
     @Override
     public WeaponMasteryDao crossbow()
     {
-        return getWeaponMasteryDao(Weapon.CROSSBOW);
+        return get(Weapon.CROSSBOW);
     }
 
     @Override
     public WeaponMasteryDao s1897()
     {
-        return getWeaponMasteryDao(Weapon.S1897);
+        return get(Weapon.S1897);
     }
 
     @Override
     public WeaponMasteryDao s686()
     {
-        return getWeaponMasteryDao(Weapon.S686);
+        return get(Weapon.S686);
     }
 
     @Override
     public WeaponMasteryDao s12k()
     {
-        return getWeaponMasteryDao(Weapon.S12K);
+        return get(Weapon.S12K);
     }
 
     @Override
     public WeaponMasteryDao dbs()
     {
-        return getWeaponMasteryDao(Weapon.DBS);
+        return get(Weapon.DBS);
     }
 
     @Override
     public WeaponMasteryDao uzi()
     {
-        return getWeaponMasteryDao(Weapon.UZI);
+        return get(Weapon.UZI);
     }
 
     @Override
     public WeaponMasteryDao ump45()
     {
-        return getWeaponMasteryDao(Weapon.UMP45);
+        return get(Weapon.UMP45);
     }
 
     @Override
     public WeaponMasteryDao vector()
     {
-        return getWeaponMasteryDao(Weapon.VECTOR);
+        return get(Weapon.VECTOR);
     }
 
     @Override
     public WeaponMasteryDao thompson()
     {
-        return getWeaponMasteryDao(Weapon.THOMPSON);
+        return get(Weapon.THOMPSON);
     }
 
     @Override
     public WeaponMasteryDao pp19()
     {
-        return getWeaponMasteryDao(Weapon.PP19);
+        return get(Weapon.PP19);
     }
 
     @Override
     public WeaponMasteryDao mp5()
     {
-        return getWeaponMasteryDao(Weapon.MP5);
+        return get(Weapon.MP5);
     }
 
     @Override
     public WeaponMasteryDao akm()
     {
-        return getWeaponMasteryDao(Weapon.AKM);
+        return get(Weapon.AKM);
     }
 
     @Override
     public WeaponMasteryDao m16a4()
     {
-        return getWeaponMasteryDao(Weapon.M16A4);
+        return get(Weapon.M16A4);
     }
 
     @Override
     public WeaponMasteryDao scarl()
     {
-        return getWeaponMasteryDao(Weapon.SCARL);
+        return get(Weapon.SCARL);
     }
 
     @Override
     public WeaponMasteryDao m416()
     {
-        return getWeaponMasteryDao(Weapon.M416);
+        return get(Weapon.M416);
     }
 
     @Override
     public WeaponMasteryDao groza()
     {
-        return getWeaponMasteryDao(Weapon.GROZA);
+        return get(Weapon.GROZA);
     }
 
     @Override
     public WeaponMasteryDao m762()
     {
-        return getWeaponMasteryDao(Weapon.M762);
+        return get(Weapon.M762);
     }
 
     @Override
     public WeaponMasteryDao qbz()
     {
-        return getWeaponMasteryDao(Weapon.QBZ);
+        return get(Weapon.QBZ);
     }
 
     @Override
     public WeaponMasteryDao g36c()
     {
-        return getWeaponMasteryDao(Weapon.G36C);
+        return get(Weapon.G36C);
     }
 
     @Override
     public WeaponMasteryDao aug()
     {
-        return getWeaponMasteryDao(Weapon.AUG);
+        return get(Weapon.AUG);
     }
 
     @Override
     public WeaponMasteryDao mk47()
     {
-        return getWeaponMasteryDao(Weapon.MK47);
+        return get(Weapon.MK47);
     }
 
     @Override
     public WeaponMasteryDao vss()
     {
-        return getWeaponMasteryDao(Weapon.VSS);
+        return get(Weapon.VSS);
     }
 
     @Override
     public WeaponMasteryDao sks()
     {
-        return getWeaponMasteryDao(Weapon.SKS);
+        return get(Weapon.SKS);
     }
 
     @Override
     public WeaponMasteryDao mk14()
     {
-        return getWeaponMasteryDao(Weapon.MK14);
+        return get(Weapon.MK14);
     }
 
     @Override
     public WeaponMasteryDao mini14()
     {
-        return getWeaponMasteryDao(Weapon.MINI14);
+        return get(Weapon.MINI14);
     }
 
     @Override
     public WeaponMasteryDao slr()
     {
-        return getWeaponMasteryDao(Weapon.SLR);
+        return get(Weapon.SLR);
     }
 
     @Override
     public WeaponMasteryDao qbu()
     {
-        return getWeaponMasteryDao(Weapon.QBU);
+        return get(Weapon.QBU);
     }
 
     @Override
     public WeaponMasteryDao kar98k()
     {
-        return getWeaponMasteryDao(Weapon.KAR98K);
+        return get(Weapon.KAR98K);
     }
 
     @Override
     public WeaponMasteryDao m24()
     {
-        return getWeaponMasteryDao(Weapon.M24);
+        return get(Weapon.M24);
     }
 
     @Override
     public WeaponMasteryDao awm()
     {
-        return getWeaponMasteryDao(Weapon.AWM);
+        return get(Weapon.AWM);
     }
 
     @Override
     public WeaponMasteryDao win94()
     {
-        return getWeaponMasteryDao(Weapon.WIN94);
+        return get(Weapon.WIN94);
     }
 
     @Override
     public WeaponMasteryDao mosinNagant()
     {
-        return getWeaponMasteryDao(Weapon.MOSIN_NAGANT);
+        return get(Weapon.MOSIN_NAGANT);
     }
 
     @Override
     public WeaponMasteryDao m249()
     {
-        return getWeaponMasteryDao(Weapon.M249);
+        return get(Weapon.M249);
     }
 
     @Override
     public WeaponMasteryDao dp28()
     {
-        return getWeaponMasteryDao(Weapon.DP28);
+        return get(Weapon.DP28);
     }
 }
