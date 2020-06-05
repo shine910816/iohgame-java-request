@@ -1,88 +1,90 @@
 package com.iohgame.service.pubg.property.parameters;
 
+import com.iohgame.service.pubg.property.WeaponMasteryDao;
+
 public interface WeaponMastery
 {
-    public void p92();
+    public WeaponMasteryDao p92();
 
-    public void p1911();
+    public WeaponMasteryDao p1911();
 
-    public void m1895();
+    public WeaponMasteryDao m1895();
 
-    public void g18c();
+    public WeaponMasteryDao g18c();
 
-    public void r45();
+    public WeaponMasteryDao r45();
 
-    public void sawnoff();
+    public WeaponMasteryDao sawnoff();
 
-    public void skorpion();
+    public WeaponMasteryDao skorpion();
 
-    public void desertEagle();
+    public WeaponMasteryDao desertEagle();
 
-    public void crossbow();
+    public WeaponMasteryDao crossbow();
 
-    public void s1897();
+    public WeaponMasteryDao s1897();
 
-    public void s686();
+    public WeaponMasteryDao s686();
 
-    public void s12k();
+    public WeaponMasteryDao s12k();
 
-    public void dbs();
+    public WeaponMasteryDao dbs();
 
-    public void uzi();
+    public WeaponMasteryDao uzi();
 
-    public void ump45();
+    public WeaponMasteryDao ump45();
 
-    public void vector();
+    public WeaponMasteryDao vector();
 
-    public void thompson();
+    public WeaponMasteryDao thompson();
 
-    public void pp19();
+    public WeaponMasteryDao pp19();
 
-    public void mp5();
+    public WeaponMasteryDao mp5();
 
-    public void akm();
+    public WeaponMasteryDao akm();
 
-    public void m16a4();
+    public WeaponMasteryDao m16a4();
 
-    public void scarl();
+    public WeaponMasteryDao scarl();
 
-    public void m416();
+    public WeaponMasteryDao m416();
 
-    public void groza();
+    public WeaponMasteryDao groza();
 
-    public void m762();
+    public WeaponMasteryDao m762();
 
-    public void qbz();
+    public WeaponMasteryDao qbz();
 
-    public void g36c();
+    public WeaponMasteryDao g36c();
 
-    public void aug();
+    public WeaponMasteryDao aug();
 
-    public void mk47();
+    public WeaponMasteryDao mk47();
 
-    public void vss();
+    public WeaponMasteryDao vss();
 
-    public void sks();
+    public WeaponMasteryDao sks();
 
-    public void mk14();
+    public WeaponMasteryDao mk14();
 
-    public void mini14();
+    public WeaponMasteryDao mini14();
 
-    public void slr();
+    public WeaponMasteryDao slr();
 
-    public void qbu();
+    public WeaponMasteryDao qbu();
 
-    public void kar98k();
+    public WeaponMasteryDao kar98k();
 
-    public void m24();
+    public WeaponMasteryDao m24();
 
-    public void awm();
+    public WeaponMasteryDao awm();
 
-    public void win94();
+    public WeaponMasteryDao win94();
 
-    public void mosinNagant();
+    public WeaponMasteryDao mosinNagant();
 
-    public void m249();
+    public WeaponMasteryDao m249();
 
-    public void dp28();
+    public WeaponMasteryDao dp28();
 }
