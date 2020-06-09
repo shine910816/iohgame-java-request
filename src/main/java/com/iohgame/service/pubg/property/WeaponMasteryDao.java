@@ -15,7 +15,7 @@ public class WeaponMasteryDao extends MainClass implements Dao
 {
     private final Integer m_exp;
     private final Integer m_level;
-    private final Integer m_tier;
+    private final WeaponTier m_tier;
     private Boolean m_medalDisp = false;
     private Map<WeaponMedal, Integer> m_medals = new TreeMap<>();
     private WeaponStats m_stats;
@@ -29,7 +29,7 @@ public class WeaponMasteryDao extends MainClass implements Dao
         }
         m_exp = json.get("XPTotal").getAsInt();
         m_level = json.get("LevelCurrent").getAsInt();
-        m_tier = json.get("TierCurrent").getAsInt();
+        m_tier = Utility.getEnum(json.get("TierCurrent").getAsString(),WeaponTier.class);
         m_stats = new WeaponMasteryDao.WeaponStats(json.get("StatsTotal").getAsJsonObject());
         Iterator<JsonElement> jsonMedals = json.get("Medals").getAsJsonArray().iterator();
         while (jsonMedals.hasNext())
@@ -59,7 +59,7 @@ public class WeaponMasteryDao extends MainClass implements Dao
     /**
      * 进阶等级
      */
-    public Integer tier()
+    public WeaponTier tier()
     {
         return m_tier;
     }
