@@ -29,7 +29,7 @@ public class WeaponMasteryDao extends MainClass implements Dao
         }
         m_exp = json.get("XPTotal").getAsInt();
         m_level = json.get("LevelCurrent").getAsInt();
-        m_tier = Utility.getEnum(json.get("TierCurrent").getAsString(),WeaponTier.class);
+        m_tier = Utility.getEnum(json.get("TierCurrent").getAsString(), WeaponTier.class);
         m_stats = new WeaponMasteryDao.WeaponStats(json.get("StatsTotal").getAsJsonObject());
         Iterator<JsonElement> jsonMedals = json.get("Medals").getAsJsonArray().iterator();
         while (jsonMedals.hasNext())
