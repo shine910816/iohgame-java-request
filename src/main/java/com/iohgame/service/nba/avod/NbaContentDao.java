@@ -94,6 +94,29 @@ public class NbaContentDao implements Dao
         return m_avod;
     }
 
+    public String url()
+    {
+        String type = "";
+        Integer id = 0;
+        switch (m_contentType)
+        {
+            case GAME:
+                type = "games";
+                id = m_gameId;
+                break;
+            case EVENT:
+                type = "events";
+                id = m_eventId;
+                break;
+            case VIDEO:
+            default:
+                type = "videos";
+                id = m_videoId;
+                break;
+        }
+        return "https://qa.nba.rakuten.co.jp/" + type + "/" + id;
+    }
+
     private String getTimeFormat(int second)
     {
         if (second < 60)
@@ -192,11 +215,11 @@ public class NbaContentDao implements Dao
 
     public enum ContentType implements Parameters
     {
-        GAME("game_id"),
+        GAME("game"),
 
-        EVENT("event_id"),
+        EVENT("event"),
 
-        VIDEO("video_id");
+        VIDEO("video");
 
         private String m_val;
 

@@ -7,15 +7,13 @@ public class NbaAvodDao implements Dao
 {
     private final String m_title;
     private final String m_description;
-    private final Float m_version;
-    private final String m_linkId;
+    private final String m_link;
 
     private NbaAvodDao(ContainerBuilder builder)
     {
         m_title = builder.m_title;
         m_description = builder.m_description;
-        m_version = builder.m_version;
-        m_linkId = builder.m_linkId;
+        m_link = builder.m_link;
     }
 
     public String title()
@@ -28,28 +26,16 @@ public class NbaAvodDao implements Dao
         return m_description;
     }
 
-    public Float version()
-    {
-        return m_version;
-    }
-
-    public String linkId()
-    {
-        return m_linkId;
-    }
-
     public String link()
     {
-        // TODO Request address ?
-        return "https://qa-image.nba.rakuten.co.jp/media/ad/" + m_linkId + "_0.xml";
+        return m_link;
     }
 
     public static class ContainerBuilder implements Builder<NbaAvodDao>
     {
         private String m_title;
         private String m_description;
-        private Float m_version;
-        private String m_linkId;
+        private String m_link;
 
         public ContainerBuilder title(String title)
         {
@@ -63,15 +49,9 @@ public class NbaAvodDao implements Dao
             return this;
         }
 
-        public ContainerBuilder version(Float version)
+        public ContainerBuilder link(String link)
         {
-            m_version = version;
-            return this;
-        }
-
-        public ContainerBuilder linkId(String linkId)
-        {
-            m_linkId = linkId;
+            m_link = link;
             return this;
         }
 
