@@ -71,6 +71,10 @@ public class NbaContentDao implements Dao
     public List<String> cuepointList()
     {
         List<String> result = new ArrayList<>();
+        if (m_cuepoints.equals(""))
+        {
+            return result;
+        }
         for (String cuepoint : m_cuepoints.split(","))
         {
             int point = Utility.toInteger(cuepoint);
@@ -96,25 +100,21 @@ public class NbaContentDao implements Dao
 
     public String url()
     {
-        String type = "";
         Integer id = 0;
         switch (m_contentType)
         {
             case GAME:
-                type = "games";
                 id = m_gameId;
                 break;
             case EVENT:
-                type = "events";
                 id = m_eventId;
                 break;
             case VIDEO:
             default:
-                type = "videos";
                 id = m_videoId;
                 break;
         }
-        return "https://qa.nba.rakuten.co.jp/" + type + "/" + id;
+        return "https://qa.nba.rakuten.co.jp/" + m_contentType.val() + "s/" + id;
     }
 
     private String getTimeFormat(int second)
@@ -215,23 +215,16 @@ public class NbaContentDao implements Dao
 
     public enum ContentType implements Parameters
     {
-        GAME("game"),
+        GAME,
 
-        EVENT("event"),
+        EVENT,
 
-        VIDEO("video");
-
-        private String m_val;
-
-        private ContentType(String val)
-        {
-            m_val = val;
-        }
+        VIDEO;
 
         @Override
         public String val()
         {
-            return m_val;
+            return name().toLowerCase();
         }
 
         @Override
